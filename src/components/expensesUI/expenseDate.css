@@ -1,0 +1,22 @@
+.expense_item_date{
+    display: inline-block;
+    width: 1.6em;
+    background-color: rgb(26, 26, 27);
+    border: 1px solid lightgray;
+    color: white;
+    border-radius: 0.5em;
+    padding: 3px 10px;
+    text-align: center;
+}
+
+.expense_item_date>:nth-child(1){
+    font-size: xx-small;
+    font-weight: bold;
+}
+.expense_item_date>:nth-child(2){
+    font-size: xx-small;
+}
+.expense_item_date>:nth-child(3){
+    font-size: small;
+    font-weight: bold;
+}

@@ -1,0 +1,80 @@
+input[type="submit"],input[type="reset"],button{
+    background-color: rgb(169, 41, 169);
+    padding: 0.7rem 1.5rem;
+    margin: 0px 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: 2px solid rgb(255, 110, 255);
+    color: white;
+    font-size: x-small;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+input[type="submit"]:hover,input[type="reset"]:hover,button:hover{
+    background-color: rgb(119, 16, 148);
+}
+
+input[type="reset"]{
+    background-color: rgb(101, 21, 95);
+}
+
+.create_expense_button_wrapper{
+    text-align: center;
+    padding: 0rem 1rem;
+}
+
+.create_expense_button_wrapper>button{
+    padding: 1rem 2.2rem;
+    font-size: small;
+}
+
+.new_expense_form_container{
+    background-color: rgb(154, 118, 234);
+    padding: 1rem 0.6rem;
+    width: 50rem;
+    max-width: 95%;
+    margin: 1.6rem auto;
+    box-sizing: border-box;
+}
+
+#new_expense_form{
+    width: 100%;
+}
+
+.input_field_wrapper{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 20rem;
+    margin: 0.4rem 0px;
+    padding: 0px 1rem;
+}
+.input_field_wrapper input{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 0.3rem;
+    padding: 0.5rem 0.2rem;
+    border: none;
+}
+.input_field_wrapper input:focus{
+    outline: none;
+    border: 2px solid lightpink;
+}
+
+.input_field_wrapper label{
+    font-weight: bold;
+    font-size: smaller;
+}
+
+.submit_button_wrapper{
+    text-align: right;
+    margin: 1rem;
+    /* padding: 0rem 1rem; */
+}
+
+@media (max-width: 55rem) {
+    .input_field_wrapper{
+        max-width: none;
+    }
+}

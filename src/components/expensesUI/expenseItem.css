@@ -1,0 +1,40 @@
+:root{
+    --expense-item-width: fit-content;
+}
+
+p{
+    margin: 0px;
+}
+
+.expense_item_container{
+    background-color: rgb(67, 67, 67);
+    padding: 0.5em;
+    margin: 0.6em 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.expense_item_container>div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.expense_item_name{
+    font-size: small;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+}
+
+.expense_item_price{
+    padding: 0.5em 1em;
+    background-color: rgb(46, 5, 97);
+    /* border: 1px solid white; */
+    border-radius: 0.6em;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+}

@@ -1,0 +1,8 @@
+.expenses_list_container{
+    background-color: rgb(31, 31, 31);
+    padding: 1.5em 1em;
+    width: 50rem;
+    max-width: 95%;
+    margin: 1rem auto;
+    box-sizing: border-box;
+}

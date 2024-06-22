@@ -1,0 +1,30 @@
+.filter_component_wrapper{
+    box-sizing: border-box;
+    padding: 0.6rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filter_component_wrapper label{
+    color: white;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.filter_component_wrapper select{
+    font-size: smaller;
+    font-weight: bold;
+    padding: 0.3rem 1.5rem;
+    border-radius: 0.3rem;
+}
+
+.filter_component_wrapper select:focus{
+    outline: none;
+    border: 2px solid lightpink;
+}
+
+.filter_component_wrapper option{
+    font-size: smaller;
+}

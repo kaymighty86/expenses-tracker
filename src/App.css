@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+  background-color: #282c34;
+  font-family: 'Roboto', sans-serif;
+}
+
+.App>.appLogo{
+  text-align: center;
+  margin: 2rem 0px;
+}
+
+.App>.appLogo img{
+  width: 5rem;
+  height: 5rem;
+}
+
+.App>.appLogo h3{
+  color: rgb(246, 214, 118);
+  margin: 0px;
+  font-size: small;
+  letter-spacing: 0.8px;
+}
